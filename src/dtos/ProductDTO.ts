@@ -62,7 +62,6 @@ export class ProductDTO {
         return dto
     }
 
-
     public createProductOutput(product: Product): CreateProductOutputDTO{
         const dto: CreateProductOutputDTO = {
             message: "Produto registrado com sucesso",
